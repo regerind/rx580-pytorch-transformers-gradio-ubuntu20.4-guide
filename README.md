@@ -71,7 +71,7 @@ pip install gradio
 ```
 
 ### 7. Handle Dependencies
-Given the older versions of NumPy, you may need to update additional packages:
+Since we are using older version of NumPy, you need to make these changes:
 ```bash
 pip uninstall numpy && pip install numpy==1.19.5
 pip uninstall matplotlib && pip install matplotlib==3.3.4
